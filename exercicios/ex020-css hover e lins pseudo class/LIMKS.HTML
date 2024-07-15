@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: rgb(110, 38, 38);
+}
+a:visited{
+    text-decoration: underline;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: yellow;
+}
+.especial{
+    background-color: rgba(255, 0, 0, 0.733);
+}
+.especial::before{
+content: '➔';
+}
+a::after{
+    content:''; 
+
+}
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+
+<li><a href="https://github.com/gustavoguanabara/html-css">repositorio github</a></li>
+
+<li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" class="especial">canal do youtube</a></li>
+
+<li><a href="https://www.instagram.com/cursoemvideo/">instagram do curso em video</a></li>
+</body>
+</html>

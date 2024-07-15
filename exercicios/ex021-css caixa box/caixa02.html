@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+}
+h1{
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.151);
+    border-radius: 15px 0px;
+}
+header{
+    background-color: rgb(221, 185, 185);
+    padding: 10px;
+    margin: 10px;
+}
+nav{
+    background-color: rgb(21, 255, 0);
+    padding: 6px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.596);
+    border-radius: 15px 0px;
+}
+nav > a{
+    text-decoration: none;
+    color: rgb(255, 5, 243);
+    font-weight: bold;
+    margin-right: 10px;
+}
+nav>a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: rgb(243, 152, 152);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 0px;
+    box-shadow: 4px 4px 9px 0px rgba(63, 63, 63, 0.322);
+}
+footer{
+    background-color: rgb(243, 55, 55);
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+footer>p{
+    margin: 0px;
+}
+article{
+    background-color: rgb(60, 136, 199);
+    padding: 5px;
+}
+article >aside{
+    background-color: rgb(99, 98, 98);
+}
+    </style>
+</head>
+<body>
+  <header>
+     <h1>meu site</h1>
+     <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+     </nav>
+ </header>
+
+<main>
+   <article>
+      <h2>noticias do Brasil</h2>
+
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat consectetur facilis enim eligendi nulla tenetur cum numquam suscipit quo cupiditate, magni optio alias distinctio impedit sed quidem vero in consequuntur.</p>
+
+        <aside>
+        <p>Artigo escrito por artwork</p>
+           </aside>
+       </article>
+
+      <article> 
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/5K4pEk19nhs?si=3DGqSmN3BjKvvI4R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+      </article>
+  
+</main>
+<footer>
+    <p>desenvolvido por artwork</p>
+</footer>
+</body>
+</html>
